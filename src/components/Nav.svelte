@@ -2,18 +2,36 @@
   export let segment;
 </script>
 
+<header>
+  <h6>{segment !== undefined ? "Letters to Mila" : ""}</h6>
+  <nav>
+    <a class={segment === undefined ? "selected" : ""} href=".">home</a>
+    <a class={segment === "about" ? "selected" : ""} href="about">about</a>
+    <a rel="prefetch" class={segment === "blog" ? "selected" : ""} href="blog">
+      blog
+    </a>
+  </nav>
+</header>
+
 <style>
+  header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
   nav {
     align-items: flex-end;
     display: flex;
     flex: 1;
-    font-family: Rubik, sans-serif;
+    font-family: "Josefin Sans", sans-serif;
     font-weight: 700;
     justify-content: flex-end;
     text-transform: uppercase;
   }
 
-  a {
+  a,
+  h6 {
     color: inherit;
     text-decoration: none;
     padding: 10px 5px;
@@ -27,14 +45,14 @@
   }
 
   a::before {
-    content: '';
+    content: "";
     position: absolute;
-    transition: transform .3s ease;
+    transition: transform 0.3s ease;
     left: 0;
     bottom: 0;
     width: 100%;
     height: 2px;
-    background: #AAA;
+    background: #aaa;
     transform: scaleX(0);
   }
 
@@ -47,9 +65,3 @@
     background: #fd6378;
   }
 </style>
-
-<nav>
-  <a class='{segment === undefined ? "selected" : ""}' href='.'>home</a>
-  <a class='{segment === "about" ? "selected" : ""}' href='about'>about</a>
-  <a rel=prefetch class='{segment === "blog" ? "selected" : ""}' href='blog'>blog</a>
-</nav>
