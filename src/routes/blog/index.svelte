@@ -17,15 +17,15 @@
 </svelte:head>
 
 <div class="container">
-  <h1>Blog</h1>
+  <h2>Blog</h2>
   {#each posts as post, index}
     {#if index}
       <hr />
     {/if}
     <div class="post-item">
-      <h2>
+      <h3>
         <a rel="prefetch" href="blog/{post.slug}">{post.title}</a>
-      </h2>
+      </h3>
       <p>{post.excerpt}</p>
       <div class="post-item-footer">
         <span class="post-item-date">— {post.printDate}</span>

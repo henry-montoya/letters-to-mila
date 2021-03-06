@@ -3,7 +3,10 @@
 </svelte:head>
 
 <div class="container">
-  <h1>About</h1>
+  <h2>About</h2>
+  <figure>
+    <img alt="ultrasound" src="ultrasound.png" />
+  </figure>
   <p>
     Letters to Mila is a collection of letters from me to you, Mila-chan. It's a
     place where I can share my thoughts with you while you're still learning to
@@ -15,6 +18,20 @@
 </div>
 
 <style>
+  h2 {
+    text-align: center;
+  }
+
+  figure {
+    margin: 0 1em;
+    text-align: center;
+  }
+
+  img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+  }
   /* figure {
     float: right;
     margin: -3em -7em 2em 2em;
