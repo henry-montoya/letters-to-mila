@@ -12,8 +12,8 @@
     place where I can share my thoughts with you while you're still learning to
     understand. My hope is that one day these letters will provide you with a
     glimpse into your earliest days, and insight into the ups and downs,
-    struggles and triumphs of your mother and I as we figure out how to be
-    parents.
+    struggles and triumphs of your mother and I as we figure out how to be the
+    best parents for you and the best versions of ourselves.
   </p>
 </div>
 
