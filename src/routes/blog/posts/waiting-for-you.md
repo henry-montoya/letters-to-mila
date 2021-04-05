@@ -2,6 +2,7 @@
 title: waiting for you
 date: "2021-03-13T00:00:00.000Z"
 tags: ['first post']
+status: 'complete'
 ---
 
 The first of many letters to you.
