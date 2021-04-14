@@ -5,7 +5,7 @@ tags: []
 status: 'complete'
 ---
 
-it all happened so fast
+It all happened so fast.
 
 <!-- more -->
 Mila-chan,
