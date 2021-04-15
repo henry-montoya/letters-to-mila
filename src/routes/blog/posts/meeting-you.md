@@ -2,7 +2,7 @@
 title: meeting you
 date: "2021-04-11T00:00:00.000Z"
 tags: ['milestone']
-status: 'in-progress'
+status: 'complete'
 ---
 
 Welcome to the world, Mila. This is the story of your long-awaited birth.
